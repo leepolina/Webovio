@@ -2,8 +2,8 @@
   color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
-  gap: 10px;
   font-family: "Poppins", sans-serif;
+  gap: 10px;
   font-size: 40px;
   font-weight: 700;
 }
@@ -11,4 +11,5 @@
 .logo__svg {
   width: 55px;
   display: inline-block;
+  height: 40px;
 }
