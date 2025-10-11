@@ -1,7 +1,7 @@
 .hero {
   background-image: url(..//../images/hero_image.png);
-  padding-top: 188px;
-  padding-bottom: 107px;
+  padding-top: 108px;
+  padding-bottom: 95px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,40 +10,74 @@
   justify-content: center;
   background-color: #ffffff;
   position: relative;
-}
+  width: 100%;
 
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+.hero__text__wrap {
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
+}
 .hero__text {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   color: #ffffff;
-  margin-right: 1175px;
   margin-bottom: 22px;
+  width: 150px;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    width: 100px;
+  }
 }
 
 .hero__title {
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
-  margin-right: 659px;
   margin-bottom: 24px;
+  width: 550px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+    width: 616px;
+  }
 }
 
 .hero__p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.6;
   color: #ffffff;
   margin-bottom: 45px;
+  width: 600px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 581px;
+  }
 }
 
 .hero_link {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   text-decoration: underline;
   color: #ffd723;
+  width: 135px;
+
+  @media screen and (min-width: 768px) {
+    font-family: 16px;
+    width: 114px;
+  }
 }
