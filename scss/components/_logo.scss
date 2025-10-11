@@ -4,12 +4,28 @@
   align-items: center;
   font-family: "Poppins", sans-serif;
   gap: 10px;
-  font-size: 40px;
+  font-size: 27px;
   font-weight: 700;
+
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
 }
 
 .logo__svg {
-  width: 55px;
+  width: 27px;
   display: inline-block;
-  height: 40px;
+  height: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 34px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 40px;
+  }
 }
