@@ -1,6 +1,7 @@
 .about {
   background-color: #ffffff;
   border-bottom: 1px solid #21384218;
+  position: relative;
 }
 .container__about {
   display: flex;
@@ -8,6 +9,24 @@
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
     flex-direction: row;
+  }
+}
+
+.about__list {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+    margin-top: 60px;
+    margin-bottom: 55px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 50px 50px 100px 0px #00000025;
+    background-color: #fff;
   }
 }
 
@@ -19,6 +38,10 @@
   margin-bottom: 29px;
   color: #4d533ce5;
   margin-top: 244px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .about__title {
@@ -30,6 +53,11 @@
   margin-bottom: 35px;
   color: #4d533c;
   width: 430px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    width: 475px;
+  }
 }
 
 .about__p {
@@ -41,6 +69,11 @@
   margin-bottom: 42px;
   color: #21384299;
   width: 430px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    width: 475px;
+  }
 }
 
 .about__link {
@@ -51,6 +84,11 @@
   color: #d4d6d4;
   width: 160px;
   text-decoration: underline;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    width: 181px;
+  }
 }
 
 .about__left {
@@ -87,7 +125,7 @@
 
 .about__quote {
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   color: #4d533c;
   line-height: 1.6;
@@ -95,7 +133,6 @@
 
   @media screen and (min-width: 1200px) {
     margin-bottom: 60px;
-    width: 474px;
   }
 }
 
