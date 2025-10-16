@@ -103,7 +103,6 @@ body {
 .about {
   background-color: #ffffff;
   border-bottom: 1px solid rgba(33, 56, 66, 0.0941176471);
-  position: relative;
 }
 
 .container__about {
@@ -114,6 +113,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
 }
 @media screen and (min-width: 1200px) {
   .container__about {
@@ -149,6 +149,7 @@ body {
     -webkit-box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
             box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
     background-color: #fff;
+    padding: 55px 165px 55px 60px;
   }
 }
 

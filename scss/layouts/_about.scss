@@ -1,11 +1,11 @@
 .about {
   background-color: #ffffff;
   border-bottom: 1px solid #21384218;
-  position: relative;
 }
 .container__about {
   display: flex;
   flex-direction: column;
+  position: relative;
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
     flex-direction: row;
@@ -27,6 +27,7 @@
     top: 0;
     box-shadow: 50px 50px 100px 0px #00000025;
     background-color: #fff;
+    padding: 55px 165px 55px 60px;
   }
 }
 
