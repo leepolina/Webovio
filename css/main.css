@@ -140,12 +140,10 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     gap: 66px;
-    margin-top: 60px;
-    margin-bottom: 55px;
     z-index: 1;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -13%;
+    top: -12%;
     -webkit-box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
             box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
     background-color: #fff;
