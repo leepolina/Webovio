@@ -159,3 +159,119 @@
   font-size: 12px;
   width: 180px;
 }
+
+.about__next {
+  background-image: url(../../images/aboutnextimage.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 735px 550px;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 80px 0 137px;
+  position: relative;
+}
+
+.about__next__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #4d533c;
+  width: 300px;
+  margin-top: 150px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    width: 325px;
+  }
+}
+
+.about__next__wrap {
+  width: 475px;
+  margin-left: auto;
+}
+
+.about__title__new {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3;
+  color: #4d533c;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
+}
+
+.about__text__new {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #21384299;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    margin-bottom: 90px;
+  }
+}
+
+.about__link__new {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #d4d6d4;
+  text-decoration: underline;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+.about__new__ml {
+  width: 453px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 50px 50px 100px 0px #00000025;
+  position: absolute;
+  top: 372px;
+  left: 322px;
+  padding: 30px 33px 24px 30px;
+}
+
+.about__new__quote {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  color: #4d533c;
+  margin-bottom: 24px;
+}
+
+.about__new__author {
+  display: flex;
+  gap: 14px;
+}
+
+.about__newauthor__img {
+  display: inline-block;
+  box-shadow: 20px 25px 43px 0px #0000002e;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+}
+
+.about__author__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 142px;
+  color: #4d533c;
+  margin-bottom: 4px;
+}
+
+.about__author__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #152934;
+  width: 161px;
+}
