@@ -306,7 +306,7 @@ body {
 }
 
 .about__next {
-  background-image: url(../../images/aboutnextimage.png);
+  background-image: url(./../images/aboutnextimage.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 735px 550px;
@@ -439,7 +439,7 @@ body {
 }
 
 .about__new {
-  background-image: url(../../images/aboutnew.png);
+  background-image: url(./../images/aboutnew.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 735px 550px;
@@ -531,7 +531,7 @@ body {
 }
 
 .about__newnext {
-  background-image: url(../../images/newnext.png);
+  background-image: url(./../images/newnext.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 735px 550px;
@@ -647,7 +647,7 @@ body {
 }
 
 .hero {
-  background-image: url(..//../images/hero_image.png);
+  background-image: url(./../images/hero_image.png);
   padding-top: 108px;
   padding-bottom: 95px;
   background-repeat: no-repeat;
