@@ -681,6 +681,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 322px;
 }
 @media screen and (min-width: 768px) {
   .additional__list {
@@ -854,4 +855,11 @@ body {
     font-family: 16px;
     width: 114px;
   }
+}
+
+.footer {
+  background-image: url(../../images/footerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
