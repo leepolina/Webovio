@@ -1,6 +1,7 @@
 .additional {
   background-color: #ffffff;
   border-bottom: 1px solid #21384218;
+  position: relative;
 }
 
 .additional__title {
@@ -84,4 +85,29 @@
 
 .additional__link:hover {
   color: rgba(255, 215, 35, 1);
+}
+
+.amazing {
+  width: 1275px;
+  height: 362px;
+  box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  background-color: rgba(250, 250, 250, 1);
+  margin-top: -150px;
+}
+
+.amazing__title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 60px;
+  color: rgba(77, 83, 60, 1);
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.amazing__link {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: rgba(212, 214, 212, 1);
 }

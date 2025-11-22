@@ -1,18 +1,18 @@
+
+
 .footer {
   background-image: url(../../images/footerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 310px;
+  padding-top: 310px;
 }
 
 .contact__list {
   display: flex;
   flex-direction: row;
-}
-
-.contact__item {
-  gap: 138px;
+  gap: 144px;
+ 
 }
 
 .contact__title {
@@ -80,7 +80,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 2.5px;
+  line-height: 2.5;
   color: rgba(182, 193, 151, 1);
   width: 159px;
   margin-bottom: 23px;
@@ -92,6 +92,7 @@
   font-size: 20px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
 
   @media screen and (min-width: 768px) {
     font-size: 22px;
@@ -100,4 +101,29 @@
   @media screen and (min-width: 1200px) {
     font-size: 24px;
   }
+}
+
+.footer__svg__list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__svg__link {
+  fill: rgba(94, 102, 72, 1);
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(68, 74, 52, 1);
+  display: block;
+}
+
+.footer__svg__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.footer__svg__link:hover {
+  background-color: rgba(255, 215, 35, 1);
+  fill: #fff;
 }
